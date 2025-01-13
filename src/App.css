@@ -1,0 +1,176 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: white;
+  color: #242424;
+}
+
+#root.dark-mode {
+  background-color: #242424;
+  color: white;
+}
+
+input {
+  background-color: #f1f1f1;
+  border: 2px solid #242424;
+  border-radius: 4px;
+  color: #242424;
+  padding: 0.6em;
+}
+
+.dark-mode input {
+  border-color: #848484;
+}
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+#navigation {
+  padding: 10px 0;
+  width: 100%;
+  top: 0;
+  position: sticky;
+  background: black;
+  color: #fff;
+}
+
+#navigation-list {
+  list-style-type: none;
+}
+
+#navigation-list h3 {
+  display: inline;
+}
+
+#navigation-list li {
+  display: inline;
+  margin-right: 20px;
+}
+
+#light-switch-box {
+  background-color: rgb(230, 230, 230);
+  border: 2px solid #242424;
+  padding: 70px 20px;
+  width: 100px;
+  margin: auto;
+}
+
+#light-switch {
+  padding: 25px 15px;
+  border-radius: 0;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.green-text {
+  color: green;
+}
+
+.red-text {
+  color: red;
+}
+
+.todo-list-item {
+  text-align: left;
+}
+
+.resource {
+  display: inline-grid;
+  min-height: 20rem;
+  max-height: 20rem;
+  width: 10rem;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #242424;
+  overflow: hidden;
+}
+
+.resource-body {
+  font-size: 12px;
+}
+
+.timer-number {
+  font-size: 72px;
+  margin: 10px;
+}
+
+#canvas-container {
+  border: 3px solid #000;
+  margin: 0 auto;
+}
+
+#event-message {
+  background-color: #ddd;
+  border: 2px solid #333;
+  padding: 20px;
+  min-height: 100px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+#drag-drop {
+  padding: 20px;
+}
+
+.box {
+  border: 3px solid #333;
+  min-height: 300px;
+  width: 200px;
+  display: inline-grid;
+  margin: 0 40px;
+  padding: 20px;
+}
+
+.item {
+  border: 3px solid #ff78d0;
+  background-color: pink;
+  display: inline-block;
+  width: 100px;
+  padding: 10px;
+  margin: 4px;
+}
